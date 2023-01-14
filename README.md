@@ -16,3 +16,10 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## memo
+・packageの追加
+    → [pub.dev](https://pub.dev/)
+    flutter_riverpodの追加
+    $ flutter pub add flutter_riverpod
+
+
+
