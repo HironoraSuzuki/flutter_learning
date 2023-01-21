@@ -18,8 +18,15 @@ samples, guidance on mobile development, and a full API reference.
 ## memo
 ・packageの追加
     → [pub.dev](https://pub.dev/)
-    flutter_riverpodの追加
+
+・flutter_riverpodの追加
     $ flutter pub add flutter_riverpod
 
-
-
+・firebaseの追加
+    [https://firebase.flutter.dev/docs/overview](https://firebase.flutter.dev/docs/overview)
+    $ flutter pub add firebase_core
+    $ dart pub global activate flutterfire_cli
+    $ flutterfire configure
+        (ERROR: command not found: flutterfire) -> .zshrファイルにexport PATH="$PATH":"$HOME/.pub-cache/bin"を追加。
+        (ERROR: Failed to list Firebase projects) -> firebase login --reauth でfirebaseに再ログイン。
+    
