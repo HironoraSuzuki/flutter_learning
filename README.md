@@ -30,3 +30,11 @@ samples, guidance on mobile development, and a full API reference.
         (ERROR: command not found: flutterfire) -> .zshrファイルにexport PATH="$PATH":"$HOME/.pub-cache/bin"を追加。
         (ERROR: Failed to list Firebase projects) -> firebase login --reauth でfirebaseに再ログイン。
     
+・cloud_firestoreの追加
+    [https://firebase.flutter.dev/docs/firestore/overview](https://firebase.flutter.dev/docs/firestore/overview)
+    $ flutter pub add cloud_firestore
+    エミュレータ起動時、「minSdkVersion 16 cannot be smaller than version 19 declared in library :cloud_firestore」のようなエラーが発生した場合、
+    android>app>build.gradle の minSdkVersion を以下のように 19 以上にあげる。
+        minSdkVersion flutter.minSdkVersion -> minSdkVersion 23
+        [参考](https://www.mechengjp.com/%E3%80%90flutter%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA%E6%B3%95%E3%80%91uses-sdkminsdkversion-16-cannot-be-smaller-than-version-19-declared-in-library-%E3%81%A8%E3%81%84%E3%81%86%E3%82%A8/)
+    

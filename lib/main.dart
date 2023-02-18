@@ -58,7 +58,7 @@ class MyHomePage extends ConsumerWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          mainModel.incrementCounter();
+          mainModel.createUser(context: context);
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),
