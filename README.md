@@ -38,3 +38,6 @@ samples, guidance on mobile development, and a full API reference.
         minSdkVersion flutter.minSdkVersion -> minSdkVersion 23
         [参考](https://www.mechengjp.com/%E3%80%90flutter%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA%E6%B3%95%E3%80%91uses-sdkminsdkversion-16-cannot-be-smaller-than-version-19-declared-in-library-%E3%81%A8%E3%81%84%E3%81%86%E3%82%A8/)
     
+・uuidの追加
+    [https://pub.dev/packages/uuid/install](https://pub.dev/packages/uuid/install)
+    $ flutter pub add uuid
