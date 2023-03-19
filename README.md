@@ -41,3 +41,12 @@ samples, guidance on mobile development, and a full API reference.
 ・uuidの追加
     [https://pub.dev/packages/uuid/install](https://pub.dev/packages/uuid/install)
     $ flutter pub add uuid
+
+・freezedでjsonを生成
+    $ flutter pub add freezed --dev
+    $ flutter pub add freezed_annotation --edv
+    $ flutter pub add json_serializable --edv
+    $ flutter pub add build_runner --edv
+    ソースを作成後(今回はfirestore_user.dart)
+    $ flutter pub run build_runner build
+    ※ flutter clean しないとうまく生成されない時がある。
